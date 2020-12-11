@@ -62,11 +62,6 @@ public enum IconStyle {
         case (.error, .default): return Icon.error.image
         case (.error, .light): return Icon.errorLight.image
         case (.error, .subtle): return Icon.errorSubtle.image
-        case .waiting:
-              let backgroundColor = UIColor(red: 99.0/255.0, green: 110.0/255.0, blue: 114.0/255.0, alpha: 1.0)
-              let foregroundColor = UIColor.white
-              configureTheme(backgroundColor: backgroundColor, foregroundColor: foregroundColor, iconImage: iconImage)
-            }
         default: return nil
         }
     }

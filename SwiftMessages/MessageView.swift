@@ -269,10 +269,9 @@ extension MessageView {
             let foregroundColor = UIColor.white
             configureTheme(backgroundColor: backgroundColor, foregroundColor: foregroundColor, iconImage: iconImage)
         case .waiting:
-              let backgroundColor = UIColor(red: 99.0/255.0, green: 110.0/255.0, blue: 114.0/255.0, alpha: 1.0)
-              let foregroundColor = UIColor.white
-              configureTheme(backgroundColor: backgroundColor, foregroundColor: foregroundColor, iconImage: iconImage)
-            }
+          let backgroundColor = UIColor(red: 99.0/255.0, green: 110.0/255.0, blue: 114.0/255.0, alpha: 1.0)
+          let foregroundColor = UIColor.white
+          configureTheme(backgroundColor: backgroundColor, foregroundColor: foregroundColor, iconImage: iconImage)
         }
     }
     
